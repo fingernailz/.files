@@ -1,8 +1,13 @@
+cursor-opacity=0
+background-image-fit = cover
+background-image-fit = cover
+custom-shader="./shaders/cursor.glsl"
 auto-update = download
 auto-update-channel = stable
 clipboard-read = allow
 confirm-close-surface = false
 copy-on-select = true
+#background-image="/Users/soyuz/Desktop/testing_nvim.png"
 cursor-style = underline
 cursor-style-blink = true
 custom-shader-animation = false
@@ -11,34 +16,37 @@ font-size = 16
 quick-terminal-animation-duration = 0
 resize-overlay = never
 macos-titlebar-style = hidden
-background-opacity = 0.85
-background-blur-radius = 20
+background-opacity = 0.9
+background-blur-radius = 12
 macos-titlebar-style = hidden
 window-padding-x = 5
 window-padding-y = 10
 
 # gotham-default: https://terminalcolors.com/themes/gotham/default/
+# Violet Dark
+background = #171321
+foreground = #d8d2e8
 
-background = #0c1014
-foreground = #99d1ce
-selection-background = #0a3749
-selection-foreground = #99d1ce
-cursor-color = #99d1ce
-cursor-text = #11151c
-palette = 0=#0c1014
-palette = 1=#c23127
-palette = 2=#2aa889
-palette = 3=#edb443
-palette = 4=#195466
-palette = 5=#4e5166
-palette = 6=#33859e
-palette = 7=#99d1ce
-palette = 8=#0c1014
-palette = 9=#c23127
-palette = 10=#2aa889
-palette = 11=#edb443
-palette = 12=#195466
-palette = 13=#4e5166
-palette = 14=#33859e
-palette = 15=#99d1ce
+cursor-color = #c9b8ff
+cursor-text = #171321
 
+selection-background = #4b3b68
+selection-foreground = #f0ebff
+
+palette = 0=#171321
+palette = 1=#e06c75
+palette = 2=#8fcf9f
+palette = 3=#e5c07b
+palette = 4=#8ab4d6
+palette = 5=#b48ead
+palette = 6=#78c6c0
+palette = 7=#d8d2e8
+
+palette = 8=#30283d
+palette = 9=#f0808a
+palette = 10=#a8e6b5
+palette = 11=#f2d38b
+palette = 12=#9cc7e8
+palette = 13=#c9a6c9
+palette = 14=#8adbd4
+palette = 15=#f0ebff
