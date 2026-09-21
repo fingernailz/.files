@@ -12,30 +12,36 @@ alias header="curl -I"
 # some stupid typescript that needs to be disabled
 alias script="echo 'nah nah nah'"
 
+# some commands related to ffmpeg
+# ffmpeg -i something.webp somethingelse.png
+# very useful
+
+alias edit="nvim /Users/soyuz/.config/nvim/init.lua"
+alias ghost="nvim /Users/soyuz/.config/ghostty/config.ghostty"
+alias up="uptime"
 alias gom="go mod init"
 alias c="clear"
 alias s="source"
 alias going="go run ."
 alias goinga="go run"
 alias clip="pbcopy" #yea ik this is shit
-alias pgarc="bash ~/scripts/ping_script.sh"
-alias pgg="bash ~/scripts/google_ping.sh"
+alias pgarc="bash /Users/soyuz/scripts/ping_script.sh"
+alias pgg="bash /Users/soyuz/scripts/google_ping.sh"
 alias cdd="cd ~/Desktop"
 alias reload="source ~/.zshrc" #no need, use zsh
-alias scripts="nvim ~/scripts"
-alias zshrc="nvim ~/.zshrc"
+alias scripts="nvim /Users/soyuz/scripts"
+alias zshrc="nvim /Users/soyuz/.zshrc"
 alias ff="fastfetch"
-alias pgv="bash ~/scripts/ping_vercel.sh"
-alias runclip="go run ~/Desktop/c/ding/Sensitive/clipboard-assistant/main.go"
-alias ytd="yt-dlp -o ~/ytvideos"
+alias pgv="bash /Users/soyuz/scripts/ping_vercel.sh"
+alias runclip="go run /Users/soyuz/Desktop/c/ding/Sensitive/clipboard-assistant/main.go"
+alias ytd="yt-dlp -o /Users/soyuz/ytvideos"
 alias ls="ls --color=auto"
 alias grep="grep --color=auto"
-alias edit="nvim"
-alias ed="nvim"
+alias ed="nvim ."
 alias ..="cd .."
 alias hm="cd"
 alias ex="exit"
-alias ctrc="cat ~/.zshrc"
+alias ctrc="cat /Users/soyuz/.zshrc"
 alias coffee="caffeinate"
 alias i="whoami"
 alias I="whoami"
@@ -58,4 +64,9 @@ alias list="echo 'gom = go mod init\nc = clear\ns = source\ngoing = go run .\ngo
 
 # Added by Antigravity IDE
 #export PATH="/Users/soyuz/.antigravity-ide/antigravity-ide/bin:$PATH"
+export PATH="/opt/homebrew/opt/ruby/bin:$PATH"
+export PATH="/opt/homebrew/opt/ruby/bin:$PATH"
+. "/Users/soyuz/.deno/env"
 
+# Added by cua-driver-rs installer — see https://github.com/trycua/cua
+export PATH="/Users/soyuz/.local/bin:$PATH"
