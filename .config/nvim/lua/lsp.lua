@@ -25,7 +25,7 @@ return {
     version = "1.*",
     opts = {
       keymap = {
-        preset = "default",
+        preset = "enter",
       },
 
       appearance = {
