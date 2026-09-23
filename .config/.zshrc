@@ -15,7 +15,7 @@ alias script="echo 'nah nah nah'"
 # some commands related to ffmpeg
 # ffmpeg -i something.webp somethingelse.png
 # very useful
-
+alias fix="kill $THIS"
 alias edit="nvim /Users/soyuz/.config/nvim/init.lua"
 alias ghost="nvim /Users/soyuz/.config/ghostty/config.ghostty"
 alias up="uptime"
